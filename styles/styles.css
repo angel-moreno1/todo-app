@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgba(207, 207, 207, 0.438);
+}
+*, *::before *::after {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+.error-msg {
+    position: absolute;
+    transform: translateY(-30rem);
+    margin: 1rem;
+    width: 7rem;
+    color: black;
+    height: 1rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 234, 232);
+    border: solid 1px red;
+    transition: transform 600ms;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-todo-app{
+    color: black;
+    height: 25vh;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+label{
+    margin-right:  1rem;
+}
+.tasks-container {
+    width: 50%;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.group-form {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    cursor: pointer;
+}
